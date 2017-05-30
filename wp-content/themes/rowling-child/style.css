@@ -1,0 +1,142 @@
+/*
+Theme Name: rowling-child
+Theme URI: http://www.meltedmoon.com
+Description: This is a child theme for Rowling Template
+Author: Muhammad Tajammul Hussain
+Author URI: http://www.meltedmoon.com
+Template: rowling
+Version: 1.0
+*/
+
+@import url("../rowling/style.css");
+
+.posts .post {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.single-post .post-inner {
+    padding-left: 0px;
+    position: relative;
+    z-index: 5;
+}
+
+.post-content ul {
+    list-style: none;
+}
+
+.sf-result, .sf-result *{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.sf-result li{
+	margin: 2% !important;
+	padding: 2% !important;
+	width: 45% !important;
+	height: 170px !important;
+}
+
+.sf-thumb{
+	width : 150px;
+	float:left;
+	margin: 0px !important;
+}
+
+.sf-link-title{
+	color: #000;
+    text-decoration: none !important;
+}
+
+.sf-link{
+	color: #000;
+    text-decoration: none !important;
+	border: none !important;
+}
+
+.sf-info{
+	margin: 10px 0 0 10px !important;
+	float: left;
+}
+
+.sf-info p{
+	line-height: 1 !important;
+	margin: 5px 0 !important;
+	text-transform: capitalize;
+	font-size: small;
+}
+
+.sf-sub{
+	margin: 0px !important;
+}
+
+.sf-sub p{
+	line-height: 1 !important;
+	margin: 5px 0 !important;
+	text-transform: capitalize;
+}
+
+.sf-information{
+	float:left;
+}
+
+.proposal-block{
+	margin: 2% !important;
+	padding: 0 2% !important;
+	max-width: 46% !important;
+	height: auto !important;
+	min-height: 200px !important;
+	float: left;
+	border: 1px solid #cacaca;
+}
+
+.proposal-title {
+    font-size: 1em !important;
+	line-height: 1em !important;
+	font-weight: 700;
+	margin: 5px 0 !important;
+}
+
+.proposal-title a{
+    border-bottom: 1px solid #ddd;
+}
+
+.post-image{
+	float: left;
+}
+
+.sf-information-single{
+	float: left;
+	margin-left: 15px;
+}
+
+.proposal-age{
+    font-size: 1.2em !important;
+	line-height: 1.2em !important;
+}
+
+.page-title {
+    margin-bottom: 10px !important;
+}
+
+.match-btn{
+	padding: 16px 20px;
+    margin: 0;
+    border: none;
+    border-radius: 2px;
+    background: #0093C2;
+	color: #fff;
+	text-align: center;
+}
+
+.match-btn a, .match-btn a:hover{
+	color: #fff;
+	font-weight: bold;
+}
+
+.page-title h4, .page-title h1{
+	font-size: 1.2rem;
+	color: #000;
+	font-weight: bold;
+}
