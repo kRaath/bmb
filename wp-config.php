@@ -26,7 +26,7 @@ define('DB_NAME', 'bmb_db');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'raath');
+define('DB_PASSWORD', 'raath@aws');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
